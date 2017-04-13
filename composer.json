@@ -1,0 +1,22 @@
+{
+    "name": "irs/julia-bot",
+    "description": "Utilities to help our admnistrator.",
+    "type": "project",
+    "require": {
+        "symfony/console": "^3.2",
+        "setasign/fpdi": "^1.6",
+        "zendframework/zend-mail": "^2.7",
+        "setasign/fpdf": "^1.8"
+    },
+    "authors": [
+        {
+            "name": "Vadim Kusakin",
+            "email": "vadim.irbis@gmail.com"
+        }
+    ],
+    "bin": ["bin/invoice"],
+    "autoload": {
+        "psr-0": {"Irs\\Jbot": "src/"}
+    }
+
+}
